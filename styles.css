@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Remove default body margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Make the container fill the entire screen */
+.pdf-container {
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+  overflow: hidden; /* Hide scrollbars if any */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
